@@ -10,7 +10,7 @@ from langchain.schema import AIMessage, HumanMessage, SystemMessage
 import os
 from langchain_core.output_parsers import JsonOutputParser
 
-os.environ["OPENAI_API_KEY"] ='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'
+os.environ["OPENAI_API_KEY"] ='your_api_key'
 chat = ChatOpenAI(temperature=0)
 
 template = "your are check list generator you have to get the error code from the user the answer should mutiple values"
